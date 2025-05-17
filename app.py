@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "✅ Hello from Flask running in ECS Fargate via DockerHub!"
+    return "✅ Hello from Flask running in ECS Fargate via DockerHub!!"
 
 @app.route('/health')
 def health():
