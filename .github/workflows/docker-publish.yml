@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build the Docker image
-        run: docker build -t mbairavi/eutechimage:latest .
+        run: docker build -t mbairavi/eutechimage:latest 
 
       - name: Push the Docker image
         run: docker push mbairavi/eutechimage:latest
